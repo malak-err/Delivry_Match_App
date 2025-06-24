@@ -1,6 +1,7 @@
 package com.deliverymatch.deliverymatch.controller;
 
 
+
 import com.deliverymatch.deliverymatch.Dto.TrajetDto;
 import com.deliverymatch.deliverymatch.service.TrajetService;
 import lombok.AllArgsConstructor;
@@ -11,7 +12,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/Trajet")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class TrajetController {
 
     public TrajetService trajetService;

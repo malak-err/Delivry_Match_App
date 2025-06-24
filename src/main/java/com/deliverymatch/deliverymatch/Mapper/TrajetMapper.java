@@ -1,6 +1,5 @@
 package com.deliverymatch.deliverymatch.Mapper;
 
-
 import com.deliverymatch.deliverymatch.Dto.TrajetDto;
 import com.deliverymatch.deliverymatch.Model.Trajet;
 import org.mapstruct.Mapper;
